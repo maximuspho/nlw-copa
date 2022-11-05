@@ -26,10 +26,28 @@ function createCard(date, day, games) {
 
 document.querySelector("#cards").innerHTML = `
 
+    ${createCard('20/11', 'Domingo', createGame('qatar', "13:00", 'equador'))}
+
+    ${createCard('21/11', 'Segunda', createGame('senegal', "13:00", 'holanda')
+    + createGame('inglatera', "10:00", 'iran')
+    + createGame('eua', "16:00", 'gales')
+    )}
+
+    ${createCard('22/11', 'Terça', createGame('argentina', "07:00", 'arabiasaudita')
+    + createGame('mexico', "13:00", 'polonia')
+    + createGame('dinamarca', "10:00", 'tunisia')
+    + createGame('franca', "16:00", 'australia')
+    )}
+
+    ${createCard('23/11', 'Quarta', createGame('marrocos', "07:00", 'croacia')
+    + createGame('espanha', "13:00", 'costarica')
+    + createGame('alemanha', "10:00", 'japao')
+    + createGame('belgica', "16:00", 'canada')
+    )}
+
     ${createCard('24/11', 'Quinta', createGame('suica', "07:00", 'camaroes')
-    + createGame('portugal', "13:00", 'gana')
+    + createGame('uruguay', "10:00", 'coreiadosul')
+    + createGame('portugal', "16:00", 'gana')
     + createGame('brazil', "16:00", 'serbia')
 )}
-    ${createCard('28/11', 'Segunda', createGame('suica', "13:00", 'brazil'))}
-    ${createCard('02/12', 'Sexta', createGame('brazil', "16:00", 'camaroes'))}    
  `
