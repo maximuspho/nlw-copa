@@ -47,7 +47,7 @@ document.querySelector("#cards").innerHTML = `
 
     ${createCard('24/11', 'Quinta', createGame('suica', "07:00", 'camaroes')
     + createGame('uruguay', "10:00", 'coreiadosul')
-    + createGame('portugal', "16:00", 'gana')
+    + createGame('portugal', "13:00", 'gana')
     + createGame('brazil', "16:00", 'serbia')
 )}
  `
